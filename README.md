@@ -40,7 +40,7 @@ Please provide feedback via email (jbuchanan@newrelic.com) a **pull request** or
 
 
 
-In addition to the code in each chapter's /code folder, the final app developed from the course is available here: LINK TO BE PROVIDED
+In addition to the code in each chapter's /code folder, the final app developed from the course is [available here](https://github.com/jsbnr/newrelic-nr1-nerdlet-zero-to-hero-app)
 
 
 
