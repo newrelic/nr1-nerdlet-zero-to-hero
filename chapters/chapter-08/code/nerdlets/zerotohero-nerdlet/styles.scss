@@ -1,0 +1,22 @@
+@import '../../components/ChartRow/styles.scss';
+
+.MainHeading {
+    color: #b31021; 
+    font-size: 3em;
+    line-height: 80px;
+    font-weight: bold;
+}
+.AppIcon {
+    text-align:center;
+}
+.ChartRow {
+    background-color: white;
+    height: 300px;
+    margin-bottom:2em;
+    h2 {
+        color:#248bbc;
+        font-size: 3em;
+        font-weight:bold;
+        padding: 0.5em 0 0 0.5em;
+    }
+}

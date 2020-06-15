@@ -1,0 +1,8 @@
+_site
+**/.nos
+**/.idea
+**/dist
+**/node_modules
+**/coverage
+**/tmp
+**/.DS_Store
