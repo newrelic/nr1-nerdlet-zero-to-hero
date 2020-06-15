@@ -1,3 +1,5 @@
+[![Example Code header](https://github.com/newrelic/open-source-office/raw/master/examples/categories/images/Example_Code.png)](https://github.com/newrelic/open-source-office/blob/master/examples/categories/index.md#category-example-code)
+
 # ![Hero](./resources/icon.png)Nerdlet Fundamentals: Zero to Hero
 
 A self-paced introduction to custom application (nerdlet) development for New Relic One.
@@ -40,7 +42,7 @@ Please provide feedback via email (jbuchanan@newrelic.com) a **pull request** or
 
 
 
-In addition to the code in each chapter's /code folder, the final app developed from the course is [available here](https://github.com/jsbnr/newrelic-nr1-nerdlet-zero-to-hero-app)
+In addition to the code in each chapter's /code folder, the final app developed from the course is [available here](resources/nr1-zero-to-hero-app.zip)
 
 
 
