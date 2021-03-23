@@ -36,11 +36,10 @@ The last thing to do is to set the title of our nerdlet. The nerdlet has been cr
 
 ```json
 {
-    "schemaType": "LAUNCHER",
-    "id": "zerotohero-launcher",
+    "schemaType": "NERDLET",
+    "id": "zerotohero-nerdlet",
     "displayName": "Zero to Hero!",
-    "description": "A nerdlet workshop",
-    "rootNerdletId": "zerotohero-nerdlet"
+    "description": "This is a nerdlet!"
 }
 ```
 
