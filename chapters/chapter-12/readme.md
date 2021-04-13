@@ -53,7 +53,7 @@ Lets add a custom control that allows the user indicate that only slow transacti
 
 ### 2a. Adding the control
 
-We can use a checkbox for this simple control. The [`<Checkbox>`](https://developer.newrelic.com/client-side-sdk/index.html#components/Checkbox) component from the NR1 component library will do nicely.
+We can use a checkbox for this simple control. The [`<Checkbox>`](https://developer.newrelic.com/components/checkbox) component from the NR1 component library will do nicely.
 
 In the main nerdlet `index.js` file change the frist `<Grid>` into three columns by adding a new `<GridItem>` and setting the columnSpan's to 1, 8 and 3.
 

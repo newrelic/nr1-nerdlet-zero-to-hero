@@ -8,7 +8,7 @@ In this chapter we explore the NR1 API component documentation and use some of t
 
 NR1 comes with a number of really great components that we can use out of the box to allow us to build our application UI. We'll go into more detail of what a component is (and build our own) later, but for now lets look at whats available.
 
-Navigate to the [component documentation](https://developer.newrelic.com/client-side-sdk/index.html) area of the New Relic developer website. In the left hand navigation panel you should see a "UI Components" section. Find and select the **HeadingText** component. You will see that the documentation shows you how to import the component and then explains all the properties ("Props") you can specify for the component. 
+Navigate to the [component documentation](https://developer.newrelic.com/explore-docs/intro-to-sdk) area of the New Relic developer website. In the left hand navigation panel you should see a "UI Components" section. Find and select the **HeadingText** component. You will see that the documentation shows you how to import the component and then explains all the properties ("Props") you can specify for the component. 
 
 
 

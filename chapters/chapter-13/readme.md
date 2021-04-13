@@ -167,7 +167,7 @@ We can see the data is returned in two parts`data.actor.account.browser` and `da
 
 
 
-The [example in the documentation](https://developer.newrelic.com/client-side-sdk/index.html#charts/LineChart) shows how custom data should be passed to the `<LineChart>` component. The data attribute is an array of objects, each object is a point on the chart specified as x (time data) and y (transactions) data. There is also meta data describing how the series of data should be formatted.
+The [example in the documentation](https://developer.newrelic.com/components/line-chart) shows how custom data should be passed to the `<LineChart>` component. The data attribute is an array of objects, each object is a point on the chart specified as x (time data) and y (transactions) data. There is also meta data describing how the series of data should be formatted.
 
 ![Example custom data](./screenshots/examplecustomdata.png)
 
@@ -222,7 +222,7 @@ Hopefully your application should be rendering something like this:
 
 **Alternative data loading method:**
 
-Theres more than one way to skin a cat. The above method uses graphql to query the data and then we learn to format it for the chart. However there are some components that make this a little simpler. Explore the [`<NrqlQuery>`](https://developer.newrelic.com/client-side-sdk/index.html#data-fetching/NrqlQuery) component in the compnent library for a simpler method for single queries. This is also used in the [workshop lab 7](https://github.com/newrelic/nr1-workshop/blob/master/lab7/INSTRUCTIONS.md)
+Theres more than one way to skin a cat. The above method uses graphql to query the data and then we learn to format it for the chart. However there are some components that make this a little simpler. Explore the [`<NrqlQuery>`](https://developer.newrelic.com/components/nrql-query) component in the compnent library for a simpler method for single queries. This is also used in the [workshop lab 7](https://github.com/newrelic/nr1-workshop/blob/master/lab7/INSTRUCTIONS.md)
 
 
 

@@ -269,7 +269,7 @@ Also add the "AppIcon" class to the `<GridItem>` containing the icon (this just 
 
 This is looking a lot better now, but lets add some icons. The NR1 component library comes with a handy `<Icon>` component that we can use to quickly add icons to our application. 
 
-Find the documentation for the [icon component](https://developer.newrelic.com/client-side-sdk/index.html#components/Icon). In the Examples section click on "All Icons" . You will see all the icons rendered so you can easily choose what you need. You can click on an icon and its type is copied to clipboard. Very useful!
+Find the documentation for the [icon component](https://developer.newrelic.com/components/icon). In the Examples section click on "All Icons" . You will see all the icons rendered so you can easily choose what you need. You can click on an icon and its type is copied to clipboard. Very useful!
 
 ![All icons example](./screenshots/allicons.png)
 

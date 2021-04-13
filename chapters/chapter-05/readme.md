@@ -28,7 +28,7 @@ First we need to adjust our layout to be three columns instead of two. Open up t
 
 ### 1b. Adding the Pie Chart
 
-Take a look at the [documentation of the PieChart component](https://developer.newrelic.com/client-side-sdk/index.html#charts/PieChart). We'll use the Basic version for now where we supply a query and account ID/ Later we'll look at how to render charts from data. 
+Take a look at the [documentation of the PieChart component](https://developer.newrelic.com/components/pie-chart). We'll use the Basic version for now where we supply a query and account ID/ Later we'll look at how to render charts from data. 
 
 First import the PieChart component at the top of `index.js` :
 
@@ -72,9 +72,9 @@ In some cases (especially if you see 403 errors in the inspector) it might be ne
 
 ### 1c. Adding the Line Chart and Billboard
 
-Add the [LineChart component](https://developer.newrelic.com/client-side-sdk/index.html#charts/LineChart) in the same way as the PieChart was added. It needs an account Id and query. Simply add the keyword timeseries to the query to make it render as a graph over time.
+Add the [LineChart component](https://developer.newrelic.com/components/line-chart) in the same way as the PieChart was added. It needs an account Id and query. Simply add the keyword timeseries to the query to make it render as a graph over time.
 
-Also add the [Billboard component](https://developer.newrelic.com/client-side-sdk/index.html#charts/BillboardChart) under the title in the first column. This query is the same as the one in the pie chart by with the `facet` clause removed.
+Also add the [Billboard component](https://developer.newrelic.com/components/billboard-chart) under the title in the first column. This query is the same as the one in the pie chart by with the `facet` clause removed.
 
 Finally add the attribute `fullHeight` and `fullWidth` to all three chart components to ensure they fill the entire height of the row.
 

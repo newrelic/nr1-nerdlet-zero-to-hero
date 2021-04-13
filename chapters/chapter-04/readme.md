@@ -94,7 +94,7 @@ You can style elements with classes and inline styles, as well as use components
 
 ### 2a. Styling the header
 
-Lets improve our header style. First we will change the heading to use a [HeadingText](https://developer.newrelic.com/client-side-sdk/index.html#components/HeadingText) component.  Open the `/nerdlets/zerotohero-nerdlet/index.js` file and change the heading text to use the component like this:
+Lets improve our header style. First we will change the heading to use a [HeadingText](https://developer.newrelic.com/components/heading-text) component.  Open the `/nerdlets/zerotohero-nerdlet/index.js` file and change the heading text to use the component like this:
 
 ```jsx
 <GridItem columnSpan={11}>
