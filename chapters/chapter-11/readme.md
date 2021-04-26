@@ -20,7 +20,7 @@ We've already been using the `render()` method. We now need to load our data, th
 
 ## 2. Loading....
 
-Loading of data is asynchronous, we don't want the application to stall whilst the data is loaded. The convention is to provide some sort of feedback to the user that something will happen soon. The NR1 component library has a [`<Spinner>`](https://developer.newrelic.com/client-side-sdk/index.html#components/Spinner) component just for this purpose.
+Loading of data is asynchronous, we don't want the application to stall whilst the data is loaded. The convention is to provide some sort of feedback to the user that something will happen soon. The NR1 component library has a [`<Spinner>`](https://developer.newrelic.com/components/spinner) component just for this purpose.
 
 We will store the loaded data in **state** which we explored in [chapter 8](../chapter-08). Until there is data loaded we want to show a loading spinner. Lets do that now:
 
@@ -235,7 +235,7 @@ We will use this query (with some adjustments) in our application.
 
 ### 3c. Loading data with `NerdGraphQuery`
 
-We will retrieve data from New Relic using the [NerdGrpahQuery component](https://developer.newrelic.com/client-side-sdk/index.html#data-fetching/NerdGraphQuery) from the component library. This allows us to construct and send a [graphQL](https://graphql.org/) query to the API and receive a response back.
+We will retrieve data from New Relic using the [NerdGraphQuery component](https://developer.newrelic.com/components/nerd-graph-query) from the component library. This allows us to construct and send a [graphQL](https://graphql.org/) query to the API and receive a response back.
 
 
 

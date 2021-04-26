@@ -8,7 +8,7 @@ In this chapter we connect our charts to the time picker, and use it as an excus
 
 Oh my, what a name for a component!
 
-A quick look in the [docs](https://developer.newrelic.com/client-side-sdk/index.html#apis/PlatformStateContext) doesn't really tell us much either. Essentially this is the component that provides us data about the current context of the nerdlet, such as time frame selected. 
+A quick look in the [`PlatformStateContext` docs](https://developer.newrelic.com/components/platform-state-context) doesn't really tell us much either. Essentially this is the component that provides us data about the current context of the nerdlet, such as time frame selected. 
 
 
 
